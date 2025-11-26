@@ -3,18 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
-    "axios": "^0.21.1",
-    "axios-mock-adapter": "^1.18.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-
     "axios": "^1.7.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
-
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,18 +39,20 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "webpack-dev-server": "^5.2.1"
   },
   "resolutions": {
     "nth-check": "^2.0.1",
     "postcss": "^8.4.31",
     "svgo": "^3.0.0",
-    "css-select": "^5.1.0"
+    "css-select": "^5.1.0",
+    "webpack-dev-server": "^5.2.1"
   },
   "overrides": {
     "nth-check": "^2.0.1",
     "postcss": "^8.4.31",
     "svgo": "^3.0.0",
-    "css-select": "^5.1.0"
+    "css-select": "^5.1.0",
+    "webpack-dev-server": "^5.2.1"
   }
 }
